@@ -1,0 +1,342 @@
+
+@font-face{
+	@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i';
+}
+
+body{
+	margin:0;
+}
+
+.menu{
+	width:305px;
+	margin:0 auto;
+	color:white;
+	font-family: 'Lato', sans-serif;
+	font-weight:500;
+	border: 5px solid red;
+	overflow:hidden;
+	background: url("../wood.jpg");
+	background-size: 60%;
+	line-height:1.5em;
+
+
+
+	.menutitle{
+		background: black;
+		height: 150px;
+
+		h1{
+			color: white;
+			text-align: center;
+		}
+	}
+
+	.donburi{
+
+		.donburititle{
+			height: 100px;
+			background:url("../paint3.png");
+			background-size:cover;
+			display: flex;
+			align-items: center;
+
+			h2{
+				margin: 0;
+				font-family: Bebas;
+				font-size: 2em;
+				padding-left:20px;
+				color: white;
+				letter-spacing: .2em;
+
+				span{
+					font-size: .4em;
+					letter-spacing: .19em;
+				}
+			}
+		}
+
+		.itemtile{
+			display: flex;
+			margin-top: 20px;
+
+			.image{
+				width:50%;
+				position: relative;
+				height: 160px;
+				// background:red;
+				display: flex;
+				flex-direction: column;
+
+					img{
+						width: 90%;
+						padding-left:5%;				
+					}
+
+					h2{
+						top: 0;
+						font-size: 1.8em;
+						text-align: center;
+						font-weight: 800;
+						margin:0;
+						// margin-top:20px;
+						margin-bottom: 10px;
+						font-family: Arial;
+					}
+
+				}
+
+				p{
+					margin:0;
+				}
+
+
+				.productsandprice{
+					padding-top:15px;
+					width: 50%;
+
+					table{
+						width:100%;
+						position:relative;
+						line-height: 1.35em;
+					}
+				}
+
+				.products{
+					width:50%;
+					font-size:.8em;
+					font-weight: 400;
+					padding-left:5px;
+				}
+
+				.medium{
+					width:25%;
+					text-align: center;
+					font-size: .8em;
+
+				}
+
+				.large{
+					width:25%;
+					text-align: center;
+					font-size: .8em;
+					padding-right:10px;
+				}
+
+
+			.listings{
+				display: flex;
+			}
+		}
+
+	} // end of don buri
+
+	.udonnoodles{
+		margin-bottom: 40px;
+
+		.udonnoodletitle{
+			height: 100px;
+			background:url("../paint2.png");
+			background-size:cover;
+			display: flex;
+			align-items: center;
+			margin-top: 40px;
+
+			h2{
+				margin: 0;
+				font-family: Bebas;
+				font-size: 1.8em;
+				color: white;
+				letter-spacing: .2em;
+				text-align: right;
+				width:100%;
+			}
+		}
+
+		.itemtile{
+			display: flex;
+			position:relative;
+
+			.image{
+				width:45%;
+
+				img{
+					width: 120%;
+				}
+
+			}
+
+			.productsandprice{
+				width:55%;
+				display: flex;
+				font-size: .8em;
+				padding:0 10px;
+
+				th{
+					text-align: left;
+				}
+
+				.products{
+					width:80%;
+
+
+				}
+
+				.price{
+					width:20%;
+
+				}
+
+			}
+
+		}
+
+	}
+
+
+	.sobanoodles{
+		margin-bottom: 40px;
+
+		.sobanoodletitle{
+			height: 100px;
+			background:url("../paint.png");
+			background-size:cover;
+			display: flex;
+			align-items: center;
+
+			h2{
+				margin: 0;
+				font-family: Bebas;
+				font-size: 1.7em;
+				padding-left:20px;
+				color: white;
+				letter-spacing: .2em;
+			}
+		}
+
+		.itemtile{
+			display: flex;
+			position:relative;
+
+			.image{
+				width:45%;
+				padding-top:10px;
+
+				img{
+					width: 120%;
+				}
+
+			}
+
+			.productsandprice{
+				width:55%;
+				display: flex;
+				font-size: .8em;
+				padding-left:30px;
+				padding-right:5px;
+
+				th{
+					text-align: left;
+				}
+
+				.products{
+					width:80%;
+				}
+
+				.price{
+					width:20%;
+
+				}
+
+			}
+
+		}
+
+	}
+
+	.ramennoodles{
+		margin-bottom: 40px;
+
+		.ramennoodletitle{
+			height: 100px;
+			background:url("../noodles.png");
+			background-size:cover;
+			display: flex;
+			align-items: center;
+
+			h2{
+				margin: 0;
+				font-family: Bebas;
+				font-size: 1.7em;
+				padding-left:20px;
+				color: white;
+				letter-spacing: .2em;
+			}
+		}
+
+		.itemtile{
+			display: flex;
+			position:relative;
+			text-align: center;
+
+			img{
+				width:80%;
+			}
+
+			p{
+				margin:0;
+			}
+
+			#shoyuchicken{
+				width:50%;
+			}
+
+			#misochicken{
+				width:50%;
+			}
+		}
+	}
+
+	.bentobox{
+		
+		.bentoboxtitle{
+			height: 120px;
+			background:purple;
+			background-size:cover;
+			display: flex;
+			align-items: center;
+			margin-bottom: 40px;
+
+			h2{
+				margin: 0;
+				font-family: Bebas;
+				font-size: 1.8em;
+				padding-left:20px;
+				color: white;
+				letter-spacing: .2em;
+			}
+		}
+
+		.bentoboxitem{
+			position:relative;
+			text-align: center;
+			margin-bottom: 50px;
+
+			h3{
+				font-size: 2em;
+				margin:0;
+			}
+
+			p{
+				width:80%;
+				margin:0;
+				margin-left: 10%;
+				font-size: .8em;
+			}
+
+			img{
+				width:70%;
+			}		
+		}
+	}
+
+}
